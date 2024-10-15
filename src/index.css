@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .button{
+    @apply px-2 py-1 shadow-2xl rounded-lg border-2 border-gray-600 hover:bg-gray-600 hover:text-white text-black
+  }
+}
